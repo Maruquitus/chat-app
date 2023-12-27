@@ -54,7 +54,7 @@ const Conversa = ({route}) => {
         
         {/* Input */}
         <View style={{position: 'absolute', bottom:0, paddingHorizontal: 10, width: '100%', alignSelf: 'center', flexDirection: 'row', justifyContent: 'space-between', height: 60}}>
-          <TextInput placeholderTextColor='#777' placeholder='Mensagem' cursorColor="#3D8BE6" style={{fontFamily: 'Medium', fontSize: 20, borderRadius: 20, height: 50, padding: 10, width: '85%', backgroundColor: '#bbdbfa'}}/>
+          <TextInput placeholderTextColor='#99a' placeholder='Mensagem' cursorColor="#3D8BE6" style={{fontFamily: 'Medium', fontSize: 20, borderRadius: 20, height: 50, padding: 10, width: '85%', backgroundColor: '#bbdbfa'}}/>
           <TouchableOpacity style={{backgroundColor: '#3D8BE6', borderRadius: 40, width: 50, height: 50, zIndex: 20, alignSelf: 'flex-end', top: 2}}>
             <FontAwesomeIcon style={{left: 10, top: 13}} color='white' size={25} icon="fa-solid fa-paper-plane" /> 
           </TouchableOpacity>

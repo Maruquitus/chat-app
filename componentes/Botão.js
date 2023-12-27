@@ -6,7 +6,7 @@ const Botão = (props) => {
     <TouchableOpacity onPress={() => props.ação}>
       <LinearGradient
         style={[{
-          padding: 8,
+          padding: 6,
           borderRadius: 20,
           width: 200,
           alignSelf: "center",
@@ -20,6 +20,7 @@ const Botão = (props) => {
           style={{
             fontFamily: "SemiBold",
             color: "white",
+            bottom: 1,
             fontSize: 20,
             textAlign: "center",
           }}
